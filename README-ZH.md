@@ -7,11 +7,13 @@
 
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/BallsLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/BallsLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
-
+### 默认的 'translate' 动画效果
 ![gif1](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot1.gif)
 
+### 默认的 'scale' 动画效果
 ![gif2](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot2.gif)
 
+### 自定义颜色的 'scale' 动画效果
 ![gif3](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot3.gif)
 
 ### 使用<br>
