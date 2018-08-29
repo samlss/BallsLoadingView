@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:gravity="center"
+       android:orientation="horizontal">
+      <Button
+          android:textSize="10sp"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:onClick="onStart"
+          android:text="Start"
+          android:textAllCaps="false" />
+
+      <Button
+          android:textSize="10sp"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:onClick="onStop"
+          android:text="Stop"
+          android:textAllCaps="false" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_centerInParent="true"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+   <com.iigo.library.BallsLoadingView
+       android:id="@+id/blv_loading1"
+       app:ballRadius="6dp"
+       app:animType="translate"
+       android:layout_width="100dp"
+       android:layout_height="40dp" />
+
+      <com.iigo.library.BallsLoadingView
+          android:id="@+id/blv_loading2"
+          android:layout_marginTop="50dp"
+          app:ballRadius="6dp"
+          app:animType="scale"
+          android:layout_width="100dp"
+          android:layout_height="40dp" />
+
+      <com.iigo.library.BallsLoadingView
+          android:id="@+id/blv_loading3"
+          android:layout_marginTop="50dp"
+          app:ballRadius="6dp"
+          app:animType="scale"
+          app:firstBallColor="@android:color/holo_green_dark"
+          app:secondBallColor="@android:color/holo_red_dark"
+          app:thirdBallColor="@android:color/holo_orange_dark"
+          app:fourthBallColor="@android:color/holo_blue_dark"
+          android:layout_width="100dp"
+          android:layout_height="40dp" />
+
+   </LinearLayout>
+
+</RelativeLayout>

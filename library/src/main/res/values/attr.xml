@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BallsLoadingView">
+        <attr name="firstBallColor" format="color|reference"></attr>
+        <attr name="secondBallColor" format="color|reference"></attr>
+        <attr name="thirdBallColor" format="color|reference"></attr>
+        <attr name="fourthBallColor" format="color|reference"></attr>
+        <attr name="ballRadius" format="dimension|reference"></attr>
+        <attr name="animType" >
+            <flag name = "translate" value = "0" />
+            <flag name = "scale" value = "1" />
+        </attr>
+    </declare-styleable>
+</resources>
