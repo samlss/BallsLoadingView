@@ -9,11 +9,13 @@ A loading view that includes four balls for animating.
 
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/BallsLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/BallsLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
-
+### The default 'translate' animation effect
 ![gif1](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot1.gif)
 
+### The default 'scale' animation effect
 ![gif2](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot2.gif)
 
+### The 'scale' animation but custom colors effect
 ![gif3](https://github.com/samlss/BallsLoadingView/blob/master/screenshots/screenshot3.gif)
 
 ### Use<br>
